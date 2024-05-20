@@ -1,0 +1,34 @@
+Project Setup Guide
+Before starting the project, follow these steps:
+
+1: Run the following commands to install project dependencies:
+
+composer install
+npm install
+npm run watch  # for JS changes
+
+2:Create a MySQL database with the name specified in the .env file under DB_DATABASE.
+
+3:Run the following commands to migrate and seed the database:
+
+php artisan migrate --seed   # for the first time 
+# or
+php artisan migrate:fresh --seed  # for fresh migration
+
+4:You can log in with any of the following user credentials:
+
+Email: admin@gmail.com //admin role
+Email: edit@hr.com     //editor role
+Email: view@hr.com    //viewer  role
+
+Common password for all users: 123456
+
+To add a new user, register through the API and assign roles in the Laravel web application.
+
+5:Testing API with Postman:
+
+Use the provided Postman file to test the API file name: Api_Auth_for_gubloo.postman_collection
+
+just import the file in postman and then test api you ready to go...
+
+Thank you..
