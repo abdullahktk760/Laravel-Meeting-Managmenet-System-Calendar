@@ -4,7 +4,7 @@ Note:
 
 2: add credientails in .env
 
-3: login with tester gmail for authention
+3: Log in to Google Gmail using the tester Gmail account. When creating the meeting, it should authenticate with this email.
 
 email:t69174592@gmail.com
 
