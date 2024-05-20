@@ -2,6 +2,9 @@
 Note: 
 1: path laravel_test/app/Credentials  unzip the key_tester_account.rar file
 2: add credientails in .env 
+3: login with tester gmail for authention
+email:t69174592@gmail.com
+password:tester123456
 
 GOOGLE_CLIENT_ID=482735856343-icdqte38vehkb9d4sqiqm6amcdu1jn4a.apps.googleusercontent.com
 GOOGLE_CLIENT_SECRET=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
